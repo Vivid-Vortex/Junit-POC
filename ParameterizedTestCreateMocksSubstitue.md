@@ -22,7 +22,7 @@ void testWithJsonData(TestData data) {
 }
 ```
 
-2. Using `@JsonFileSource` from junit-json-params library:
+2. Using `@JsonFileSource` from [junit-json-params](https://github.com/Vivid-Vortex/Junit-POC/blob/main/JUnitPioneer.md) library:
 ```java
 @ParameterizedTest
 @JsonFileSource(resources = "/test-data.json")
